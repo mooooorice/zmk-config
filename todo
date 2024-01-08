@@ -1,8 +1,3 @@
-Make lock PC in office available?
-
-
-Make it such that shift is sticky (for easier left hand caps)
-double tab shift makes esc (to have caps on the keyboard again, adapt xmodmap accordingly)
 Move (thumb) keys that were moved on default layer also on ohter layers
 Add umlaute https://github.com/urob/zmk-nodefree-config#international-characters
 make ctr+c und ctr+v a shortcut or sth. to make it possible with only the left hand (for when I am using the mouse in my left hand?)
