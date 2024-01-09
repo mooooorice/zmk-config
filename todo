@@ -1,7 +1,6 @@
 move esc somewhere else such that ctr+arrowkeys moves entire words :mind=blown
 make ctr+tab work again with one hand?
 
-Move (thumb) keys that were moved on default layer also on ohter layers
 Add umlaute https://github.com/urob/zmk-nodefree-config#international-characters
 make ctr+c und ctr+v a shortcut or sth. to make it possible with only the left hand (for when I am using the mouse in my left hand?)
 
