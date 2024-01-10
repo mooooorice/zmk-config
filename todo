@@ -1,6 +1,6 @@
 Make fn keys same as number, but longpress
 make thumb different dependend on tab or hold
-better backspace? Caps somehow? second/sticky shift?
+better backspace? Caps somehow?
 
 Missing keys:
 printscr
@@ -11,18 +11,9 @@ page up
 page down
 fn keys (add special layer?)
 
-
-swap tab and shift? have all keys that need to be holded on thumbs and others somewhere else? (but what with moving windows?)
-
 delete to the right?
 Modkey+tab one/left handed?
-Schauen auf normalem keyboard welche tasten (ausser fn) noch fehlen
-ev. klammern eins nach links verschieben?
-
-move esc somewhere else such that ctr+arrowkeys moves entire words :mind=blown
 make ctr+tab work again with one hand?
-
-Add umlaute https://github.com/urob/zmk-nodefree-config#international-characters
 make ctr+c und ctr+v a shortcut or sth. to make it possible with only the left hand (for when I am using the mouse in my left hand?)
-
-doubletab shift for caps
+doubletab shift for caps?
+Modkey+i somewhere as single key?
