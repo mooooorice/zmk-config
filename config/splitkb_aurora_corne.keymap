@@ -16,7 +16,7 @@
             bindings
                 = <&macro_press &kp LSHFT>
                 , <&macro_press &kp RALT>
-                , <&macro_tap &kp A>
+                , <&macro_tap &kp SQT>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RALT>
                 ;
