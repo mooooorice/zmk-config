@@ -1,21 +1,16 @@
-add second behavior of modkey (backspace to other layers as well?)
-Make fn keys same as number, but longpress
-make thumb different dependend on tab or hold
-better backspace? Caps somehow?
-Scrollwheel
-
 Missing keys:
-printscr
-delete (right)
-home
-end
-page up
-page down
-fn keys (add special layer?)
+add second behavior of modkey (backspace) to other layers as well?
+printscr -> topRight?
+delete (right) -> lower layer right pinky?
+home, end, page up, page down -> where media keys are, move them to left hand upper layer?
+fn keys (add special layer?) -> long-press number keys
+Modkey+tab one/left handed? -> lower layer and where caps/escape is (gui esc and gui tab would be next to each other)
+make ctr+c und ctr+v a -> left top key, dependend on either shift or if not possible lower layer
+Modkey+i onehanded -> longpress i
+Caps somehow? -> doubletab shift
+Scrollwheel -> raise layer index finger moved right (rightmost on the left keyboard) 
 
-delete to the right?
-Modkey+tab one/left handed?
-make ctr+tab work again with one hand?
-make ctr+c und ctr+v a shortcut or sth. to make it possible with only the left hand (for when I am using the mouse in my left hand?)
-doubletab shift for caps?
-Modkey+i somewhere as single key?
+
+make thumb different dependend on tab or hold -> maybe add alt somewhere?
+
+done :)
