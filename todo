@@ -1,17 +1,22 @@
-Missing keys:
+Ev.
+Caps somehow? -> doubletab shift? (or don't use esc for language switch -> OS change)
+Longpress top row switsch to workspace directly?
+make thumb different dependend on tab or hold -> maybe add alt somewhere?
+do double tab for F keys instead of long press
+
+
+done :)
 add second behavior of modkey (backspace) to other layers as well?
 printscr -> topRight?
 delete (right) -> lower layer right pinky?
 home, end, page up, page down -> where media keys are, move them to left hand upper layer?
 fn keys (add special layer?) -> long-press number keys
+Scrollwheel -> raise layer index finger moved right (rightmost on the left keyboard) 
+
+Macros:
 Modkey+tab one/left handed? -> lower layer and where caps/escape is (gui esc and gui tab would be next to each other)
 make ctr+c und ctr+v a -> left top key, dependend on either shift or if not possible lower layer
 Modkey+i onehanded -> longpress i
-Caps somehow? -> doubletab shift
-Scrollwheel -> raise layer index finger moved right (rightmost on the left keyboard) 
 
 
-make thumb different dependend on tab or hold -> maybe add alt somewhere?
-Longpress top row switsch to workspace directly?
 
-done :)
