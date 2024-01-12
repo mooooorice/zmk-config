@@ -99,12 +99,12 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // | F12  |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |PRSCR |
-// |LAWIND|     |  Ä  |  Ö  |  Ü  |     |   | LFT | DWN |  UP | RGT | DEL | LCTR |
+// | CTRL |     |  Ä  |  Ö  |  Ü  |     |   | LFT | DWN |  UP | RGT | DEL | LCTR |
 // | SHFT | BT1 | BT2 | BT3 | BT4 |BTCLR|   |HOME |PGDN |PGUP | END |MOD+I|  ESC |
 //                    |     | GUI | SPC |   | ENT |     | TAB |
                         bindings = <
    &kp F12   &mt F1 N1       &mt F2 N2       &mt F3 N3       &mt F4 N4       &mt F5 N5             &mt F6 N6   &mt F7 N7       &mt F8 N8    &mt F9 N9        &mt F10 N0 &mt F11 PSCRN
-   &last_window    &trans       &umlaut_a    &umlaut_u    &umlaut_o    &trans             &kp LEFT &kp DOWN     &kp UP    &kp RIGHT     &kp DEL &kp LCTRL
+   &kp LCTRL   &trans       &umlaut_a    &umlaut_u    &umlaut_o    &trans             &kp LEFT &kp DOWN     &kp UP    &kp RIGHT     &kp DEL &kp LCTRL
    &kp LSHFT  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR         &kp HOME    &kp PG_DN &kp PG_UP   &kp END   &statusbar &kp ESC
                                     &trans       &mt LGUI BSPC     &kp SPACE                &kp RET  &kp TAB  &trans 
                         >;
@@ -113,12 +113,12 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // | COPY |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  (  |  )  |  *  |PRSCR |
-// | CTRL |     |PREV | PP  | NXT |SCRUP|   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// |LAWIND|     |PREV | PP  | NXT |SCRUP|   |  -  |  =  |  [  |  ]  |  \  |  `   |
 // | LALT |     |     |     |     |SCRDN|   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    |     | GUI | SPC |   | ENT |     | TAB |
                         bindings = <
    &copy  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp LPAR &kp RPAR &kp KP_MULTIPLY &kp PSCRN
-   &kp LCTRL &trans   &kp K_PREV   &kp K_PP  &kp K_NEXT   &kp K_SCROLL_UP      &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH        &kp GRAVE
+   &last_window &trans   &kp K_PREV   &kp K_PP  &kp K_NEXT   &kp K_SCROLL_UP      &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH        &kp GRAVE
    &kp LALT &trans   &trans &trans   &trans   &kp  K_SCROLL_DOWN    &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE        &kp TILDE
                              &trans &mt LGUI BSPC   &kp SPACE   &kp RET    &kp TAB   &trans
                         >;
