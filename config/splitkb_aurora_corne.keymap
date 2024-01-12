@@ -53,18 +53,18 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LCTR>
+                = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp C>
-                , <&macro_release &kp LCTR>
+                , <&macro_release &kp LCTRL>
                 ;
         };
         paste: paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LCTR>
+                = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp V>
-                , <&macro_release &kp LCTR>
+                , <&macro_release &kp LCTRL>
                 ;
         };
         statusbar: statusbar {
