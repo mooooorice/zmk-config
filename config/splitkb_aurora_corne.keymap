@@ -85,12 +85,12 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// | COPY |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |PRSCR  |
+// | PASTE|  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |PRSCR  |
 // | CAPS |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |'(LCTR)|
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | SHFT  |
 //                    | RSE | GUI | SPC |   | ENT | TAB  | LWR |
                         bindings = <
-   &copy   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp PSCRN
+   &paste   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp PSCRN
    &kp CAPS   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &mt LCTRL SQT
    &kp LSHFT  &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp LSHFT
                   &mo 2 &mt LGUI BSPC &kp SPACE   &kp RET &kp TAB &mo 1 
@@ -112,12 +112,12 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |PASTE |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  (  |  )  |  *  |PRSCR |
+// | COPY |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  (  |  )  |  *  |PRSCR |
 // | CTRL |     |PREV | PP  | NXT |SCRUP|   |  -  |  =  |  [  |  ]  |  \  |  `   |
 // | LALT |     |     |     |     |SCRDN|   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    |     | GUI | SPC |   | ENT |     | TAB |
                         bindings = <
-   &paste  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp LPAR &kp RPAR &kp KP_MULTIPLY &kp PSCRN
+   &copy  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp LPAR &kp RPAR &kp KP_MULTIPLY &kp PSCRN
    &kp LCTRL &trans   &kp K_PREV   &kp K_PP  &kp K_NEXT   &kp K_SCROLL_UP      &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH        &kp GRAVE
    &kp LALT &trans   &trans &trans   &trans   &kp  K_SCROLL_DOWN    &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE        &kp TILDE
                              &trans &mt LGUI BSPC   &kp SPACE   &kp RET    &kp TAB   &trans
