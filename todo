@@ -3,6 +3,7 @@ Caps somehow? -> doubletab shift? (or don't use esc for language switch -> OS ch
 Longpress top row switsch to workspace directly?
 make thumb different dependend on tab or hold -> maybe add alt somewhere?
 do double tab for F keys instead of long press
+Fix mouse scroll
 
 
 done :)
@@ -17,6 +18,3 @@ Macros:
 Modkey+tab one/left handed? -> lower layer and where caps/escape is (gui esc and gui tab would be next to each other)
 make ctr+c und ctr+v a -> left top key, dependend on either shift or if not possible lower layer
 Modkey+i onehanded -> longpress i
-
-
-
