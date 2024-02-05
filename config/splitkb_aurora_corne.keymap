@@ -114,12 +114,12 @@
 // -----------------------------------------------------------------------------------------
 // | COPY |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  [  |  ]  |  *  |PRSCR |
 // |LAWIND|MOD+I|PREV | PP  | NXT |SCRUP|   |  -  |  =  |  (  |  )  |  \  |  `   |
-// |      |     |     |     |     |SCRDN|   |  _  |  +  |  {  |  }  | "|" |  ~   |
+// |  ~   |     |     |     |     |SCRDN|   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    |     | GUI | SPC |   | ENT |     | TAB |
                         bindings = <
    &copy  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp LBKT &kp RBKT &kp KP_MULTIPLY &kp PSCRN
    &last_window &statusbar   &kp K_PREV   &kp K_PP  &kp K_NEXT   &kp K_SCROLL_UP      &kp MINUS &kp EQUAL &kp LPAR &kp RPAR &kp BSLH        &mt LCTRL GRAVE
-   &trans &trans   &trans &trans   &trans   &kp  K_SCROLL_DOWN    &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE        &kp TILDE
+   &kp TILDE &trans   &trans &trans   &trans   &kp  K_SCROLL_DOWN    &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE        &kp TILDE
                              &trans &mt LGUI BSPC   &kp SPACE   &kp RET    &kp TAB   &trans
                         >;
                 };
